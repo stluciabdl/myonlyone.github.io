@@ -31,8 +31,12 @@ const clock = () => {
     var greeting = "Good Afternoon " + name + "Jangan lupa minum biar ngga dehidrasi";
   }
 
-  if (hours >= 18 && hours <= 24) {
+  if (hours >= 18 && hours <= 22) {
     var greeting = "Good Evening " + name;
+  }
+  
+  if (hours >= 22 && hours <=24) {
+    var greeting = "Udah malem lho ini bobo gih" + name;
   }
 
   document.getElementById("greetings").innerHTML = greeting;
