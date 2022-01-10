@@ -28,7 +28,7 @@ const clock = () => {
   }
 
   if (hours >= 12 && hours <= 18) {
-    var greeting = "Good Afternoon " + name + "Jangan lupa minum biar ngga dehidrasi";
+    var greeting = "Good Afternoon " + name + "jangan lupa makan, siomay depan rumah sakit urip enak lho ternyata";
   }
 
   if (hours >= 18 && hours <= 22) {
