@@ -24,6 +24,7 @@ h1
 }
 
 .clock span{
+    font-family: Orbitron;
     display: flex;
     align-items: center;
     width: 100px;
@@ -31,7 +32,7 @@ h1
     line-height: 100px;
     background-color: #000000FF;
     box-shadow: 0 5px 15px #000000FF;
-    color: rgb(0, 0, 0);
+    color: #17D4FE;
     margin: 0 15px;
 }
 
